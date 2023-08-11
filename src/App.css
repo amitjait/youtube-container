@@ -100,7 +100,7 @@ a{
   text-decoration: none;
   padding: 1px;
   border-radius: 5px;
-  min-width: 50px;
+  /* min-width: 50px; */
   text-align: center;
   padding-left: 5px;
   padding-right: 10px;
@@ -114,6 +114,24 @@ a{
 
 
 @media only screen and (max-width: 730px) {
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff2600;
+  }
+  
+  .nav-box{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    background-color: #ff2600;
+    color: white;
+    gap: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+  }
 
   .nav-box ul{
     display: flex;
@@ -126,13 +144,29 @@ a{
 
   
 .nav-box .img-container{
-  width: 15%;
+  width: 10%;
   display: flex;
   justify-content: center;
   padding-left: 0;
   /* border: 1px solid black; */
 }
 
+a{
+  color: white;
+  text-decoration: none;
+  padding: 1px;
+  border-radius: 5px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.active{
+  border-bottom: 2px solid white;
+  /* background-color: white;
+  color: #ff2600; */
+}
 
   .videos-box{
     width: 80%;
