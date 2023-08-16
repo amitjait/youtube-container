@@ -7,7 +7,6 @@
   top: 0;
   width: 100vw;
   height: 80px;
-  /* background-color: aliceblue; */
 }
 
 .nav-box{
@@ -18,17 +17,13 @@
   background-color: #ff2600;
   color: white;
   gap: 1rem;
-  /* padding-top: 1rem; */
-  /* padding-bottom: 1rem; */
   font-size: 20px;
-  /* border: 2px solid white; */
 }
 
 .nav-box .img-container{
   width: 15%;
   display: flex;
   padding-left: 0;
-  /* border: 1px solid black; */
 }
 
 .nav-box .img-container img{
