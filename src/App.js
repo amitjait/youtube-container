@@ -12,11 +12,13 @@ function App() {
   return (
     <div className="App">
       <Navabar />
-      <Routes >
-        <Route path='/' element={<All/>} />
-        <Route path='/videos' element={<Videos/>} />
-        <Route path='/shorts' element={<Shorts/>} />
-      </Routes>
+      <div className='main'>
+        <Routes >
+          <Route path='/' element={<All/>} />
+          <Route path='/videos' element={<Videos/>} />
+          <Route path='/shorts' element={<Shorts/>} />
+        </Routes>
+      </div>
     </div>
   );
 }
