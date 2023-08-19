@@ -11,11 +11,18 @@ const Navabar = ()=>{
                 <div className="img-container">
                     <img src={logo} alt="T H G" />
                 </div>
-                <ul>
-                    <NavLink to="/"><li>ALL</li></NavLink>
-                    <NavLink to="/videos"><li>VIDEOS</li></NavLink>
-                    <NavLink to="shorts"><li>SHORTS</li></NavLink>
-                </ul>
+                <div className="list">
+                    <ul>
+                        <NavLink to="/"><li>ALL</li></NavLink>
+                        <NavLink to="/videos"><li>VIDEOS</li></NavLink>
+                        <NavLink to="shorts"><li>SHORTS</li></NavLink>
+                    </ul>
+                    <div className="icons">
+                        <a href="https://www.instagram.com/t_hunt_gaming/" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100080985040192" target="_blank" rel="noreferrer"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.youtube.com/@TreasureHuntGaming" target="_blank" rel="noreferrer"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     )

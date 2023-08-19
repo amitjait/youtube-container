@@ -6,12 +6,14 @@ import All from './components/All';
 import Videos from './components/Videos';
 import Shorts from './components/Shorts';
 import './App.css';
+import SmallNav from './components/SmallNav';
 
 
 function App() {
   return (
     <div className="App">
       <Navabar />
+      <SmallNav />
       <div className='main'>
         <Routes >
           <Route path='/' element={<All/>} />
