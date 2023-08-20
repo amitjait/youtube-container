@@ -29,10 +29,13 @@ const Videos = ()=>{
 
                 {
                     bgmi.filter((item) => item.snippet.resourceId.videoId !== "K6lADS5nwMY" && item.snippet.resourceId.videoId !== "WVWPelJyDwc")
+                    .sort((a, b) => new Date(b.snippet.publishedAt) - new Date(a.snippet.publishedAt))
                     .map((item) => <Video videoId={item.snippet.resourceId.videoId} />)
                 }
                 {
-                    cocData.map((item) => <Video videoId={item.snippet.resourceId.videoId} />)
+                    cocData
+                    .sort((a, b) => new Date(b.snippet.publishedAt) - new Date(a.snippet.publishedAt))
+                    .map((item) => <Video videoId={item.snippet.resourceId.videoId} />)
                 }
             </div>
         </div>
