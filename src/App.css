@@ -1,3 +1,20 @@
+header {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* This maintains the aspect ratio of the logo */
+  margin-right: 10px; /* Add space between the logo and the title */
+}
+
+header h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 24px;
+}
+
+
 .nav{
   display: flex;
   align-items: center;
