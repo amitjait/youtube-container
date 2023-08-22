@@ -8,6 +8,7 @@ import Shorts from './components/Shorts';
 import './App.css';
 import SmallNav from './components/SmallNav';
 import Banner from './components/Banner';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/shorts' element={<Shorts/>} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }
