@@ -22,6 +22,7 @@ const Shorts = () =>{
     return(
         <div className="shorts">
             <h1>Shorts</h1>
+            <div className="line"></div>
             <div className="shorts-box">
                 {
                     data.map((item) => <Short shortId={item.snippet.resourceId.videoId} />)

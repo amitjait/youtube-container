@@ -7,6 +7,7 @@ import Videos from './components/Videos';
 import Shorts from './components/Shorts';
 import './App.css';
 import SmallNav from './components/SmallNav';
+import Banner from './components/Banner';
 
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
     <div className="App">
       <Navabar />
       <SmallNav />
-      {/* <Youtube /> */}
+
       <div className='main'>
+        <Banner />
         <Routes >
           <Route path='/' element={<All/>} />
           <Route path='/videos' element={<Videos/>} />
