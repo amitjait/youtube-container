@@ -8,18 +8,15 @@ const Footer = () =>{
             <div className="footer">
             <div className="contact-us">
                 <h3>CONNECT WITH US</h3>
-                <p><span><i class="fa-solid fa-envelope"></i> </span> thuntgaming591@gmail.com</p>
-                <p><span><i class="fa-solid fa-mobile"></i></span> +91 74098 92423</p>
-                <p><span><i class="fa-solid fa-location-dot"></i> </span>Agra, Uttar Pradesh, India</p>
-                <br />
+                <p> <span><i class="fa-solid fa-envelope"></i> </span> thuntgaming591@gmail.com</p>
+                <p> <span><i class="fa-solid fa-mobile"></i></span> +91 74098 92423</p>
+                <p> <span><i class="fa-solid fa-location-dot"></i> </span>Agra, Uttar Pradesh, India</p>
             </div>
             <div className="t-h-g">
                 <h3>TREASURE HUNT GAMING</h3>
                 <p><a href="/videos"><i class="fa-solid fa-video"></i> <span> Videos</span></a></p>
                 <p><a href="/shorts"><i class="fa-solid fa-play"></i> <span> Shorts</span></a></p>
                 <p><a href="/"><i class="fa-solid fa-address-card"></i> <span> Contact Us</span></a></p>
-                <br />
-                
             </div>
             <div className="media">
                 <h3>SOCIAL MEDIA</h3>
