@@ -13,7 +13,7 @@ const Navabar = ()=>{
                 </div>
                 <div className="list">
                     <ul>
-                        <NavLink to="/"><li>ALL</li></NavLink>
+                        <NavLink to="/"><li>HOME</li></NavLink>
                         <NavLink to="/videos"><li>VIDEOS</li></NavLink>
                         <NavLink to="shorts"><li>SHORTS</li></NavLink>
                     </ul>

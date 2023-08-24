@@ -147,20 +147,20 @@ body{
   height: fit-content;
 }
 
-a{
+.list a{
   color: white;
   text-decoration: none;
   padding: 1px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   text-align: center;
-  padding-left: 5px;
-  padding-right: 10px;
+  /* padding-left: 5px;
+  padding-right: 10px; */
+  padding: 8px;
 }
 
 .list .active{
   border-bottom: 2px solid white;
-  background-color: white;
-  color: #002C35;
+
 }
 
 .line{
@@ -227,6 +227,17 @@ a{
   width: 30px;
   height: 30px;
   /* background-color: white; */
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+  padding: 1px;
+  border-radius: 5px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 18px;
 }
 
 
@@ -300,7 +311,7 @@ a{
 }
 
 
-a{
+.footer a{
   color: white;
   text-decoration: none;
   padding: 1px;
@@ -311,9 +322,20 @@ a{
   font-size: 18px;
 }
 
-.active{
+.list a{
+  color: white;
+  text-decoration: none;
+  padding: 1px;
+  /* border-radius: 5px; */
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.list .active{
   border-bottom: 2px solid white;
-  color: #002C35;
+  padding-bottom: 5px;
 }
 
   .videos-box{
