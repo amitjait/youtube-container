@@ -157,7 +157,7 @@ a{
   padding-right: 10px;
 }
 
-.active{
+.list .active{
   border-bottom: 2px solid white;
   background-color: white;
   color: #002C35;

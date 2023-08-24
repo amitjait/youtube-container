@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Footer = () =>{
 
@@ -14,9 +15,9 @@ const Footer = () =>{
             </div>
             <div className="t-h-g">
                 <h3>TREASURE HUNT GAMING</h3>
-                <p><a href="/videos"><i class="fa-solid fa-video"></i> <span> Videos</span></a></p>
-                <p><a href="/shorts"><i class="fa-solid fa-play"></i> <span> Shorts</span></a></p>
-                <p><a href="/"><i class="fa-solid fa-address-card"></i> <span> Contact Us</span></a></p>
+                <p><NavLink to="/videos"><i class="fa-solid fa-video"></i> <span> Videos</span></NavLink></p>
+                <p><NavLink to="/shorts"><i class="fa-solid fa-play"></i> <span> Shorts</span></NavLink></p>
+                <p><NavLink to="/"><i class="fa-solid fa-address-card"></i> <span> Contact Us</span></NavLink></p>
             </div>
             <div className="media">
                 <h3>SOCIAL MEDIA</h3>
