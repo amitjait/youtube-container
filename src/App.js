@@ -7,6 +7,7 @@ import './App.css';
 import SmallNav from './components/SmallNav';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import Error from './components/Error';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/videos' element={<Videos/>} />
           <Route path='/shorts' element={<Shorts/>} />
+          <Route path='*' element={<Error />} />
         </Routes>
       </div>
       <Footer />

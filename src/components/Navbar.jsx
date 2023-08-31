@@ -16,6 +16,7 @@ const Navabar = ()=>{
                         <NavLink to="/"><li>HOME</li></NavLink>
                         <NavLink to="/videos"><li>VIDEOS</li></NavLink>
                         <NavLink to="shorts"><li>SHORTS</li></NavLink>
+                        <span class="borderIndicator"></span>
                     </ul>
                     <div className="icons">
                         <a href="https://www.instagram.com/t_hunt_gaming/" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>

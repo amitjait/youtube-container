@@ -151,17 +151,19 @@ body{
   color: white;
   text-decoration: none;
   padding: 1px;
-  /* border-radius: 5px; */
   text-align: center;
-  /* padding-left: 5px;
-  padding-right: 10px; */
   padding: 8px;
 }
 
 .list .active{
   border-bottom: 2px solid white;
-
 }
+
+.list .active {
+  transition: all 1s ease; 
+}
+
+
 
 .line{
   width: 4rem;
@@ -240,6 +242,14 @@ body{
   font-size: 18px;
 }
 
+
+.error{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
 
 @media only screen and (max-width: 720px) {
   .nav{
