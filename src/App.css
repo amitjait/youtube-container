@@ -180,6 +180,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border: 2px solid white; */
+  overflow: hidden;
 }
 
 .footer{
@@ -192,6 +194,7 @@ body{
   margin-bottom: 0;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  /* border: 2px solid white; */
 }
 
 .contact-us{
@@ -248,7 +251,12 @@ body{
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 90vh;
+  height: 80vh;
+}
+
+.error img{
+  width: 60%;
+  aspect-ratio: 14/9;
 }
 
 @media only screen and (max-width: 720px) {

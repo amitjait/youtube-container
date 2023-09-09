@@ -1,10 +1,10 @@
 import React from "react";
-
+import error from "../images/404.png"
 const Error = () =>{
 
     return(
         <div className="error">
-            <h1>404</h1>            
+            <img src={error} alt="404"/>              
         </div>
     )
 }
